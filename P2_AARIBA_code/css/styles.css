@@ -12,6 +12,7 @@ body{
     box-sizing: border-box; 
     font-family: 'Raleway', sans-serif;
     width: 100%;
+    
 }
 
 #main{
@@ -113,6 +114,7 @@ header
 {
     display: inline-block;
     position: static;
+    width: 60%;
     
 }
 .searchbar
@@ -169,7 +171,7 @@ header
 }
 
 
-.button i
+.fa-search
 {
     display: none;
 }
@@ -197,11 +199,12 @@ header
 
 .Filtrecontainer
 {
-    display:flex;
+   display:flex;
    margin-right: 150px;
    align-items: center;
    height: 45px;
    border-left: none;
+   text-align: justify;
     
 }
 
@@ -458,7 +461,7 @@ aside
 {
     flex-direction: column;
     justify-content: space-between;
-    width: 500px;
+    width: 30%;
     height: 700px;
 }
 
@@ -542,6 +545,7 @@ aside
 {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 #acmar h2
@@ -666,10 +670,7 @@ footer h4
 
 footer ul
 {
-    border: 2px green solid;
     position: absolute;
-    
-
 }
 
 
@@ -677,7 +678,6 @@ footer ul
 footer li
 {
   margin-top: 10px;
-  border: 2px red solid;
 }
 
 
