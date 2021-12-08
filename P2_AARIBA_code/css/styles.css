@@ -186,25 +186,23 @@ header
     font-size: medium;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 80%;
     
 }
 
 .Filtres p
 {
-    padding-right: 10px;
+    padding-right: 20px;
     padding-left: 10px;
-    white-space: nowrap;
 }
 
 .Filtrecontainer
 {
    display:flex;
-   margin-right: 150px;
+   margin-right: 30px;
    align-items: center;
    height: 45px;
    border-left: none;
-   text-align: justify;
     
 }
 
@@ -491,10 +489,10 @@ aside
 
 .popularimg img
 {
-  width: 150px;
+  width: 160px;
   height: 160px;
   border-radius: 20px 0px 0px 20px;
-  margin: 5px 0px 5px 10px;
+  margin: 5px 0px 5px 5px;
 }
 
 .descripthotel
